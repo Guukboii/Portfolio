@@ -1,0 +1,56 @@
+body {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: auto;
+  padding-top: 20px;
+  padding-right: 200px;
+  padding-left:  200px;
+}
+
+#ski{
+    background-size: cover;
+    background-position: center;
+    width:auto;
+    height: 200px;
+}
+            
+#voetbal{
+    background-size: cover;
+    width:auto;
+    height: 200px;
+}
+            
+#fitness{
+    background-size: cover;
+    background-position: center;
+    width:auto;
+    height: 200px;
+}
+
+#text {
+    position: relative;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background-color: #C7E1FE;
+}
+
+#text img {
+    width: 100%;
+    border: 1px solid #8a4419;
+    border-style: inset;
+}
+
+#text::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+    width: 70%; 
+    left: 15%;
+    height: 50px;
+    bottom: 0;
+}
+
+p{
+    font: 18px monospace, sans-serif;
+}

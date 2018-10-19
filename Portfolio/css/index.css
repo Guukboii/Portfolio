@@ -8,23 +8,65 @@ body {
 }
 
 #ski{
+    position: relative;
     background-size: cover;
     background-position: center;
     width:auto;
     height: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#ski::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+    width: 70%; 
+    left: 15%;
+    height: 50px;
+    bottom: 0;
 }
             
 #voetbal{
+    position: relative;
     background-size: cover;
     width:auto;
     height: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
-            
+
+#voetbal::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+    width: 70%; 
+    left: 15%;
+    height: 50px;
+    bottom: 0;
+}
+           
 #fitness{
+    position: relative;
     background-size: cover;
     background-position: center;
     width:auto;
     height: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#fitness::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+    width: 70%; 
+    left: 15%;
+    height: 50px;
+    bottom: 0;
 }
 
 #text {
@@ -32,12 +74,9 @@ body {
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
     padding: 10px;
     background-color: #C7E1FE;
-}
-
-#text img {
-    width: 100%;
-    border: 1px solid #8a4419;
-    border-style: inset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 #text::after {
@@ -53,4 +92,9 @@ body {
 
 p{
     font: 18px monospace, sans-serif;
+}
+
+footer{
+    padding: 0px 10px;
+    margin-bottom: 30px;
 }

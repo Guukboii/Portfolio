@@ -10,33 +10,39 @@ header{
   top: 0;
   overflow-x: hidden;
   padding-top: 20px;
+  
 }
 
-/* Control the left side */
 .left {
   left: 0;
   background-color: dodgerblue;
 }
 
-/* Control the right side */
 .right {
   right: 0;
   background-color: #DDEDFD;
 }
 
-/* If you want the content centered horizontally and vertically */
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  
 }
 
-/* Style the image inside the centered container, if needed */
 .centered img {
   width: 200px;
   border-radius: 50%;
+}
+
+#img{
+    transition: all .2s ease-in-out;
+    margin-bottom: 30px;
+}
+#img:hover{
+    transform: scale(1.2);
 }
 
 footer{
@@ -45,5 +51,8 @@ footer{
   bottom: 0;
   left: 0;
   padding: 1rem;
-    text-align:center;
+  text-align: center;
         }
+h2{
+    font: 36px monospace, sans-serif;
+}

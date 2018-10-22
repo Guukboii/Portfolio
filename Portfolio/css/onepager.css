@@ -1,0 +1,22 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    margin-top: 40px;
+}
+
+main{
+    padding-top: 8.3%;
+}
+
+.fixed{
+    position:fixed;
+    right: 10%;
+    left: 10%;
+    z-index:5;
+}
+
+h1{
+    font: 24px monospace, sans-serif;
+}
